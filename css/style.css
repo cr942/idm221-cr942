@@ -1,0 +1,76 @@
+html{
+    --red:#F2366C;
+    --orange:#F3663F;
+    --yellow:#F0BF0F;
+    --blue:#A3F9EF;
+    --purple:#B719F0;
+
+    @font-face{  
+        font-family: 'Chiptune Valentine';
+        src: url(./fonts/chiptune-valentine.ttf);
+        font-weight: normal;
+      }
+    @font-face {
+        font-family: 'Lilita One';
+        src: url(./fonts/LilitaOne-Regular.ttf);
+        font-weight: normal;
+      }
+    @font-face {
+        font-family: 'Miriam Libre';
+        src: url(./fonts/MiriamLibre-VariableFont_wght.ttf);
+        font-weight: lighter;
+      }
+}
+
+p{
+    color: black;
+    font-family: 'Miriam Libre';
+}
+
+h1 a{
+    color: var(--purple);
+    font-family: 'Chiptune Valentine';
+    font-size: 40px;
+    text-decoration: none;
+}
+
+h2{
+    color: black;
+    font-family: 'Miriam Libre';
+    font-size: 16px;
+}
+
+h2 a{
+    color: black;
+    font-family: 'Miriam Libre';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h2.contact-name{
+    color: var(--purple);
+    font-family: 'Lilita One';
+    font-size: 24px;
+}
+
+h3.nav-button a{
+    color: var(--red);
+    font-family: 'Lilita One';
+    font-size: 32px;
+    text-decoration: none;
+
+}
+
+h3{
+    color: var(--orange);
+    font-family: 'Lilita One';
+    font-size: 32px;
+
+}
+
+h4{
+    color: var(--orange);
+    font-family: 'Lilita One';
+    font-size: 28px;
+
+}
