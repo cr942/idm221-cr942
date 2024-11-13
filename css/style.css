@@ -20,6 +20,8 @@ html{
         src: url(./fonts/MiriamLibre-VariableFont_wght.ttf);
         font-weight: lighter;
       }
+
+    max-width: 600px;
 }
 
 p{
@@ -68,9 +70,55 @@ h3{
 
 }
 
+h3.recipes{
+    color: var(--red);
+    font-family: 'Lilita One';
+    font-size: 32px;
+}
+
 h4{
     color: var(--orange);
     font-family: 'Lilita One';
     font-size: 28px;
 
+}
+
+h4.recipes{
+    color: var(--red);
+    font-family: 'Lilita One';
+    font-size: 28px;
+
+}
+
+.recipe-category{
+    color: var(--orange);
+    font-family: 'Lilita One';
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.recipe-category .recipe-link{
+    color: var(--yellow);
+    font-family: 'Lilita One';
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.button-link{
+    background-color: var(--red);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 28px;
+    padding: 15px 32px;
+    display: inline-block; /* Makes the link behave like a button */
+    border: none;
+    cursor: pointer;
+}
+
+.home-recipe-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
