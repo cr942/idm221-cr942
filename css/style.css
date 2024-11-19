@@ -27,6 +27,7 @@ html{
 p{
     color: black;
     font-family: 'Miriam Libre';
+    line-height: 1.5;
 }
 
 h1 a{
@@ -90,6 +91,12 @@ h4.recipes{
 
 }
 
+h4.ingredients{
+    color: var(--yellow);
+    font-family: 'Lilita One';
+    font-size: 28px; 
+}
+
 .recipe-category{
     color: var(--orange);
     font-family: 'Lilita One';
@@ -109,7 +116,7 @@ h4.recipes{
     color: white;
     text-align: center;
     text-decoration: none;
-    font-family: 'Lilita One', sans-serif;
+    font-family: 'Chiptune Valentine', sans-serif;
     font-size: 28px;
     padding: 15px 32px;
     display: inline-block; /* Makes the link behave like a button */
@@ -117,8 +124,14 @@ h4.recipes{
     cursor: pointer;
 }
 
-.home-recipe-links {
+.home-recipe-links, .category-recipe-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
+}
+
+.recipe-bullets{
+    font-family: 'Miriam Libre';
+    line-height: 2;
 }
