@@ -8,21 +8,20 @@
 </head>
 <body>
 <!--Title-->
-    <h1><a href="index.html">Mai Easy Recipes</a></h1>
-    <h2>Quick and Easy Recipies for College Students</h2>
-<!--Navigation-->
-    <h3>Snacks & Appetizers</h3>
-    <h3>Breakfast</h3>
-    <h3>Lunch</h3>
-    <h3>Dinner</h3>
-    <h3>Dessert</h3>
-    <h3>Contact</h3>
+    <div id="title-header">
+        <div class="header-buttons">
+            <a href="index.html"><img src="./optimized-images/LOGO.png"></a>
+            <h1><a href="index.html">Mai Easy Recipes</a></h1>
+            <a href="#navigation"><img src="./optimized-images/MENU.png"></a>
+        </div>
+        <div class="subtitle"><h2>Quick and Easy Recipies for College Students</h2></div>
+    </div>
 <!--Recipe-->
-    <h1>Homemade Rice Krispie Treats</h1>
-    <h2>A slightly healthier version of store-bought Rice Krispie Treats that you can make right in your own kitchen!</h2>
+    <h3>Homemade Rice Krispie Treats</h3>
+    <p>A slightly healthier version of store-bought Rice Krispie Treats that you can make right in your own kitchen!</p>
 <!--Ingredients-->
-<h3>Ingredients:</h3>
-<ul>
+<h4 class="ingredients">Ingredients:</h4>
+<ul class="recipe-bullets">
     <li>3 tablespoons butter</li>
     <li>4 cups mini marshmallows</li>
     <li>6 cups Rice Krispie or Fruity Pebbles cereal (or try your favorite cereal!)</li>
@@ -34,9 +33,9 @@
         <li>1 teaspoon vanilla extract</li>
     </ul>
 </ul>
-
-<h3>Directions:</h3>
-<ol>
+<!--Directions-->
+<h4 class="ingredients">Directions:</h4>
+<ol class="recipe-bullets">
     <li>Line a 9x13 baking dish with butter (or spray generously with baking spray).</li>
     <li>In a medium-large pot, melt and stir the butter over low heat.</li>
     <li>Add in the marshmallows, stirring it into the butter until melted.</li>
@@ -47,6 +46,45 @@
     <li>Spread the cereal mixture into the baking dish and flatten. Cool and let set for about 15-20 minutes.</li>
     <li>Enjoy!</li>
 </ol>
-    
+ <!--Navigation-->
+ <div id="navigation">
+    <h1>Table of Contents</h1>
+    <h3 class="recipes">Recipes</h3>
+    <ul class="recipe-category">
+        <li><a href="snacks.html">Snacks & Appetizers</a></li>
+            <ul class="recipe-link">
+                <li><a href="sushibake.html">Sushi Bake</a></li>
+                <li><a href="cucumbersalad.html">Cucumber Salad</a></li>
+                <li><a href="mozzarellasticks.html">Homemade Mozzarella Sticks</a></li>
+            </ul>
+        <li><a href="breakfast.html">Breakfast</a></li>
+        <ul class="recipe-link">
+            <li><a href="spinachomelette.html">Spinach Omelette</a></li>
+            <li><a href="spameggsrice.html">Spam, Eggs, & Rice</a></li>
+            <li><a href="steakeggs.html">Steak & Eggs</a></li>
+        </ul>
+        <li><a href="lunch.html">Lunch</a></li>
+        <ul class="recipe-link">
+            <li><a href="chickensandwich.html">Chicken Sandwich</a></li>
+            <li><a href="pizzaquesadilla.html">Pizza Quesadilla</a></li>
+            <li><a href="grandmastorta.html">Grandma's Torta</a></li>
+        </ul>
+        <li><a href="dinner.html">Dinner</a></li>
+        <ul class="recipe-link">
+            <li><a href="rastapasta.html">Rasta Pasta</a></li>
+            <li><a href="honeychicken.html">Honey Garlic Chicken</a></li>
+            <li><a href="fishballsoup.html">Misua Fishball Soup</a></li>
+        </ul>
+        <li><a href="dessert.html">Dessert</a></li>
+        <ul class="recipe-link">
+            <li><a href="bananabread.html">Homemade Chocolate Chip Banana Bread</a></li>
+            <li><a href="fruitsalad.html">Filipino Fruit Salad</a></li>
+            <li><a href="ricekrispies.html">Homemade Rice Krispie Treats</a></li>
+        </ul>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="home-recipe-links">
+        <a class="button-link" href="#title-header">Back to Top</a>
+    </div>
 </body>
 </html>

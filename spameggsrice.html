@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spam, Eggs, & Rice</title>
+    <title>Sushi Bake</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!--Title-->
-    <h1>Mai Easy Recipies</h1>
-    <h2>Quick and Easy Recipies for College Students</h2>
-<!--Navigation-->
-    <h3>Snacks & Appetizers</h3>
-    <h3>Breakfast</h3>
-    <h3>Lunch</h3>
-    <h3>Dinner</h3>
-    <h3>Dessert</h3>
-    <h3>Contact</h3>
+    <div id="title-header">
+        <div class="header-buttons">
+            <a href="index.html"><img src="./optimized-images/LOGO.png"></a>
+            <h1><a href="index.html">Mai Easy Recipes</a></h1>
+            <a href="#navigation"><img src="./optimized-images/MENU.png"></a>
+        </div>
+        <div class="subtitle"><h2>Quick and Easy Recipies for College Students</h2></div>
+    </div>
 <!--Recipe-->
-    <h1>Spam, Eggs, & Rice</h1>
-    <h2>This is my favorite thing to eat and not just for breakfast! In this recipe, we are making plain spam into something great and tasty!</h2>
+    <h3>Spam, Eggs, & Rice</h3>
+    <p>This is my favorite thing to eat and not just for breakfast! In this recipe, we are making plain spam into something great and tasty!</p>
 <!--Ingredients-->
-    <h2>Ingredients:</h2>
-    <ul>
+    <h4 class="ingredients">Ingredients:</h4>
+    <ul class="recipe-bullets">
         <li>Spam</li>
         <li>1-2 eggs</li>
         <li>Cooked rice</li>
@@ -36,8 +36,8 @@
     </ul>
     
 <!--Directions-->
-    <h3>Directions:</h3>
-    <ol>
+    <h4 class="ingredients">Directions:</h4>
+    <ol class="recipe-bullets">
         <li>Wash and cook 1 cup of rice (1 cup per serving).</li>
         <li>In a small bowl, mix in brown sugar, soy sauce, and mirin. Add as much soy sauce and mirin in an even ratio to how much spam you are cooking/how much sauce you would like! (I prefer to have a glaze instead of full-on sauce).</li>
         <li>Slice the spam into half-inch thick strips (or you can dice them).</li>
@@ -50,5 +50,45 @@
         <li>Place the eggs on top of your spam.</li>
         <li>Enjoy by itself or with sushi nori!</li>
     </ol>
+ <!--Navigation-->
+ <div id="navigation">
+    <h1>Table of Contents</h1>
+    <h3 class="recipes">Recipes</h3>
+    <ul class="recipe-category">
+        <li><a href="snacks.html">Snacks & Appetizers</a></li>
+            <ul class="recipe-link">
+                <li><a href="sushibake.html">Sushi Bake</a></li>
+                <li><a href="cucumbersalad.html">Cucumber Salad</a></li>
+                <li><a href="mozzarellasticks.html">Homemade Mozzarella Sticks</a></li>
+            </ul>
+        <li><a href="breakfast.html">Breakfast</a></li>
+        <ul class="recipe-link">
+            <li><a href="spinachomelette.html">Spinach Omelette</a></li>
+            <li><a href="spameggsrice.html">Spam, Eggs, & Rice</a></li>
+            <li><a href="steakeggs.html">Steak & Eggs</a></li>
+        </ul>
+        <li><a href="lunch.html">Lunch</a></li>
+        <ul class="recipe-link">
+            <li><a href="chickensandwich.html">Chicken Sandwich</a></li>
+            <li><a href="pizzaquesadilla.html">Pizza Quesadilla</a></li>
+            <li><a href="grandmastorta.html">Grandma's Torta</a></li>
+        </ul>
+        <li><a href="dinner.html">Dinner</a></li>
+        <ul class="recipe-link">
+            <li><a href="rastapasta.html">Rasta Pasta</a></li>
+            <li><a href="honeychicken.html">Honey Garlic Chicken</a></li>
+            <li><a href="fishballsoup.html">Misua Fishball Soup</a></li>
+        </ul>
+        <li><a href="dessert.html">Dessert</a></li>
+        <ul class="recipe-link">
+            <li><a href="bananabread.html">Homemade Chocolate Chip Banana Bread</a></li>
+            <li><a href="fruitsalad.html">Filipino Fruit Salad</a></li>
+            <li><a href="rice.html">Homemade Rice Krispie Treats</a></li>
+        </ul>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="home-recipe-links">
+        <a class="button-link" href="#title-header">Back to Top</a>
+    </div>
 </body>
 </html>
