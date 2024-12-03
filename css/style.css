@@ -33,6 +33,10 @@ p{
     line-height: 1.5;
 }
 
+p.image-link a{
+    text-decoration: underline;
+}
+
 h1 {
     color: var(--purple);
     font-family: 'Chiptune Valentine';
@@ -46,6 +50,7 @@ h1 a{
     font-family: 'Chiptune Valentine';
     font-size: 30px;
     text-decoration: none;
+    text-align: center;
 }
 
 h2{
@@ -158,4 +163,9 @@ div.header-buttons{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+img{
+    height: auto;
+    width: 390;
 }
