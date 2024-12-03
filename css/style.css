@@ -29,7 +29,7 @@ html{
 
 p{
     color: black;
-    font-family: 'Miriam Libre', Courier;
+    font-family: 'Miriam Libre', Monaco;
     line-height: 1.5;
 }
 
@@ -55,14 +55,14 @@ h1 a{
 
 h2{
     color: black;
-    font-family: 'Miriam Libre', Courier;
+    font-family: 'Miriam Libre', Monaco;
     font-size: 16px;
     text-align: center;
 }
 
 h2 a{
     color: black;
-    font-family: 'Miriam Libre', Courier;
+    font-family: 'Miriam Libre', Monaco;
     font-size: 16px;
     text-decoration: none;
 }
@@ -155,7 +155,7 @@ a.button-link{
 }
 
 .recipe-bullets{
-    font-family: 'Miriam Libre', Courier;
+    font-family: 'Miriam Libre', Monaco;
     line-height: 2;
 }
 
