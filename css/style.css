@@ -37,6 +37,12 @@ p.image-link a{
     text-decoration: underline;
 }
 
+p.contact-name{
+    color: var(--red);
+    font-family: 'Lilita One', Andale Mono bold;
+    font-size: 24px;
+}
+
 h1 {
     color: var(--purple);
     font-family: 'Chiptune Valentine', Arial Rounded MT Bold;
@@ -65,12 +71,6 @@ h2 a{
     font-family: 'Miriam Libre', Andale Mono;
     font-size: 16px;
     text-decoration: none;
-}
-
-h2.contact-name{
-    color: var(--purple);
-    font-family: 'Lilita One', Andale Mono bold;
-    font-size: 24px;
 }
 
 h3.nav-button a{
